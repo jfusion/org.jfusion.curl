@@ -1,0 +1,31 @@
+{
+    "name": "jfusion/curl",
+    "type": "library",
+    "description": "Curl Libery used for creating sessions using curl",
+    "keywords": ["jfusion", "curl"],
+    "homepage": "http://jfusion.org",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Morten Hundevad",
+            "email": "fannoj@gmail.com",
+            "homepage": "http://fanno.dk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10",
+        "joomla/language": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFusion\\Curl\\": "src/"
+        }
+    },
+    "suggest": {
+        "jfusion/framework": "If cross domain is required"
+    },
+    "require-dev": {
+        "jfusion/framework": "dev-master"
+    }
+}
